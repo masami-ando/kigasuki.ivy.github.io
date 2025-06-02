@@ -1,0 +1,70 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #fdf6ee;
+  color: #4b3832;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  background-color: #e6d3b3;
+  padding: 20px;
+  text-align: center;
+}
+
+.site-header h1 {
+  margin: 0;
+  color: #4b3832;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4b3832;
+  font-weight: bold;
+}
+
+.section {
+  padding: 40px 20px;
+  background-color: #fff8f0;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #d9b382;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.site-footer {
+  background-color: #e6d3b3;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}

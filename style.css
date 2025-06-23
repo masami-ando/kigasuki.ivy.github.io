@@ -21,7 +21,7 @@ body {
 nav ul {
   list-style: none;
   padding: 0;
-  margin-top: 10px;
+  margin-top: 0;  /*←画像直後に段落10ptを削除*/
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -75,7 +75,7 @@ button {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  margin-top: 20px; /* ← 画像の上に余白を追加 */
+  margin-top: 100px; /* ← 画像の上に余白を追加 */
 }
 /* セクション内の見出しを中央揃え */
 .section h2 {
@@ -100,5 +100,17 @@ button {
   margin: 0 auto;
   text-align: justify;
   line-height: 1.6;
+}
+
+.comment {
+  margin-bottom: 20px; /* コメントと画像の間に余白 */
+}
+
+@media screen and (max-width:400p){
+/*スマートフォン対応*/
+    h1{
+      width: 200px;
+      font-size:200%;
+    }
 }
 
